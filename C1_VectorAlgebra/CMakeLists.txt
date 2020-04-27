@@ -3,7 +3,8 @@
 #
 cmake_minimum_required (VERSION 3.8)
 
-# Add source to this project's executable.
-add_executable (VDX12_CMake "VDX12_CMake.cpp" "VDX12_CMake.h")
+
+add_executable (VectorAlgebra xmvec3.cpp)
+target_link_libraries(VectorAlgebra common)
 
 # TODO: Add tests and install targets if needed.

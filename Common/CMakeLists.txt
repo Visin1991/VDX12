@@ -22,6 +22,5 @@ add_library(common
 	UploadBuffer.h
 )
 
-add_executable (common_test _Test.cpp)
-
-target_link_libraries(common_test common)
+#add_executable (common_test _Test.cpp)
+#target_link_libraries(common_test common)
